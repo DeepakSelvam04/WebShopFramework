@@ -14,7 +14,7 @@ public class JewelryTest extends BaseClass{
 		JewelryPage jewelryPage=new JewelryPage(driver);
 		
 		//Teke screenshot of webpage
-		getScreenshotOfWebElement(driver);
+		getScreenshotOfWebpage(driver);
 		
 		//click on Jewelry
 		
@@ -24,6 +24,7 @@ public class JewelryTest extends BaseClass{
 		getScreenshotOfWebElement(jewelryPage.getBlackAndWhiteDiamondHeartImage());
 		
 		String str="hi";
+		//dee
 		
 		
 		
