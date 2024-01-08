@@ -3,11 +3,21 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScripts.Report">
+      <class name="testScripts.BookTest">
         <methods>
-          <include name="reportTest2"/>
+          <include name="beforeClass"/>
+          <include name="verifyBookPage_001"/>
+          <include name="beforeMethod"/>
+          <include name="sortBookByNameAndPrice_002"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="sortBookByPageSize_003"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- testScripts.Report -->
+      </class> <!-- testScripts.BookTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
